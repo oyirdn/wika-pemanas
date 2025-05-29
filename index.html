@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pemanas Air Wika</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f0f8ff;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #023e8a;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+    }
+    .keunggulan {
+      background-color: #e0f7fa;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+    .whatsapp {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    form {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #0077b6;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005f99;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #0077b6;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pemanas Air Wika</h1>
+  <p>Solusi hemat energi untuk kebutuhan air panas Anda</p>
+</header>
+
+<nav>
+  <a href="#tentang">Tentang</a>
+  <a href="#keunggulan">Keunggulan</a>
+  <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="tentang">
+  <h2>Tentang Produk</h2>
+  <p>Pemanas air tenaga surya Wika adalah solusi modern dan efisien untuk kebutuhan air panas rumah tangga maupun industri. Menggunakan teknologi tenaga surya, produk ini ramah lingkungan dan hemat biaya listrik.</p>
+  <img src="produk-wika.jpg" alt="Gambar Produk Pemanas Air Wika" />
+</section>
+
+<section id="keunggulan">
+  <h2>Keunggulan Produk</h2>
+  <div class="keunggulan">✔ Menggunakan tenaga surya – hemat energi</div>
+  <div class="keunggulan">✔ Kualitas terbaik dengan garansi resmi</div>
+  <div class="keunggulan">✔ Cocok untuk rumah, hotel, rumah sakit, dan pabrik</div>
+</section>
+
+<section id="kontak">
+  <h2>Hubungi Kami</h2>
+  <p>Untuk informasi lebih lanjut atau pemesanan, hubungi kami langsung melalui WhatsApp atau isi formulir di bawah ini:</p>
+  <a class="whatsapp" href="https://wa.me/6285709933199" target="_blank">Chat via WhatsApp</a>
+
+  <h3 style="margin-top:40px;">Formulir Kontak</h3>
+  <form action="https://formspree.io/f/mkgbwnwj" method="POST">
+    <label for="nama">Nama:</label>
+    <input type="text" name="nama" required />
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required />
+
+    <label for="pesan">Pesan:</label>
+    <textarea name="pesan" rows="5" required></textarea>
+
+    <button type="submit">Kirim Pesan</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Pemanas Air Wika - Semua Hak Dilindungi
+</footer>
+
+</body>
+</html>
